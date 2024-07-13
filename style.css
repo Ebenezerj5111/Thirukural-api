@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-image: linear-gradient(90deg, #2c294e 0%, #3f3fbb 35%, #00d4ff 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    min-height: 60vh;
+    width: 500px;
+    border: 3px solid white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: 3px 3px;
+}
+
+.Thirukuralsearch {
+    text-align: center;
+}
+
+input {
+    background-color: white;
+    padding: 10px 15px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 9px 15px;
+    outline: none;
+    border: 3px solid white;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgb(49, 153, 49);
+}
+
+.word {
+    color: white;
+    margin-top: 20px;
+}
+
+.content h3 {
+    text-align: center;
+    margin: 4px 0 8px 0;
+}
+
+.content h2 {
+    margin: 4px 0 6px 0;
+    text-align: center;
+}
+
+.content2 h2 {
+    margin: 2px 0 3px 0;
+    text-align: center;
+}
+
+.p{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+@media(max-width:576px) {
+
+    .container {
+        width: 100%;
+        padding: 14px;
+        border: 3px solid white;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .content h4 {
+        font-size: 15px;
+    }
+
+}
